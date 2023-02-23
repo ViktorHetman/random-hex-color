@@ -13,4 +13,9 @@ const getRandomColor = () => {
   return color
 }
 
-
+button.addEventListener('click', ()=>{
+  const newColor = getRandomColor()
+  block.style.backgroundColor = newColor
+  block.style.border ='none'
+  text.innerHTML = newColor
+})
