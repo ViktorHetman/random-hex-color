@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.block {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 10px;
+  transition: box-shadow, background-color .3s ease-in-out;
+}
+
+.block:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 15px 15px 15px;
+}
+
+
+.btn {
+  padding: 5px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
